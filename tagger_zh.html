@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="pic/ico/title.png" rel="shortcut icon">
+<title>Moo</title>
+<link rel="stylesheet" href="css/moll.css"/>
+</head>
+<body>
+<!-- 
+<input type="file" id="input">
+<button id="load">do</button>
+<div class="hidden"> </div>
+<span id="test"></span>
+-->
+<div id="center">
+<h1>么么标注</h1>
+<span>
+<label >目标实体的数量:</label><input id="ind_num" class="index">
+<label >实体位置:</label><input id="index_num" class="index">
+<label >句子的坐标:</label><input id="sent_id" class="index"> 
+<label >类别的数量:</label><input id="class_num" class="index"> 
+</span>
+<span class="home">
+	<a href="index.html" class="back_home">Home</a>
+</span>
+<br>
+<br>
+<textarea class="text" id="textarea">
+</textarea>
+<br>
+<button id="upload">上传</button>
+<div id="show"></div>
+<table><thead><td></td></thead>
+<tbody><tr>
+<td id="result"></td>
+</tr></tbody>
+</table>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<h2>教程</h2>
+<p>例句: 谷歌;美国;互联网;云计算、广告	Google（中文名：谷歌），是一家美国的跨国科技企业，致力于互联网搜索、云计算、广告技术等领域，开发并提供大量基于互联网的产品与服务，其主要利润来自于AdWords等广告服务。Google由当时在斯坦福大学攻读理工博士的拉里·佩奇和谢尔盖·布卢姆共同创建，因此两人也被称为“Google Guys”。</p>
+<p>每一行以目标实体开始，目标实体的数量不限。目标实体和句子之间都要以\t隔开(tab键),而目标实体之间要以;隔开。首先，你需要输入目标实体的数量（默认是2），然后你需要输入你预期的类别数量（默认是2），目前最多支持10类。最后，将你想处理的句子粘贴进文本框，然后点击上传按钮。</p>
+<p>如果你想要保存分类的结果，你需要点击"class_i"按钮下载你分类的数据，推荐使用chrome浏览器下载更为方便。根据下载的文件名称，你将知道如何进行下一步处理。</p>
+<p><a href="tutorial_zh.html" target="blank">更多教程<a></p>
+
+<h2>捐款</h2>
+<p>Paypal 账户: hongyin_zhu@163.com</p>
+<p>支付宝账户: zhyxhys@163.com</p>
+<p>或者您可以扫描支付宝二维码</p><a href="alipay.html" target="blank"><img src="pic/alipay.jpg" class="alipay"></img></a>
+<p>帮助支付服务器的费用。非常感谢！</p>
+<p>版权由作者保留。如果您有任何的评论或建议，请发送email到"zhyxhys@163.com".</p>
+</body>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/FileSaver.min.js"></script>
+<script src="js/moll.js"></script>
+<script src="js/googleAnalytics.js"></script>
+<script>
+
+
+</script>
+</html>

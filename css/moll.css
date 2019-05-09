@@ -1,0 +1,85 @@
+body {
+	margin-left:5%;
+	margin-right:5%;
+}
+p{
+	text-align: justify;
+}
+.text{
+	align:center;
+	width:100%;
+	height:50%;
+	border: solid 2px #ccc;
+}
+
+.hidden{
+	display:none;
+}
+
+.e0{
+	background-color: #DBDA70;
+}
+
+.e1{
+	background-color: #C18138;
+}
+
+.e2{
+	background-color: #47942F;
+}
+
+.e3{
+	background-color: #FFFDAA;
+}
+
+.e4{
+	background-color: #81A434;
+}
+
+.e5{
+	background-color: #748BA7;
+}
+
+.e6{
+	background-color: #AEADBA;
+}
+
+.index{
+	width: 20px;
+}
+.alipay{
+	width: 250px;
+}
+.keyword{
+	float:left;
+}
+.input_keyword{
+	width: 300px;
+}
+.input_URL{
+	width:800px;
+}
+.page{
+	width:100%;
+	height:90%;
+}
+.name{
+	font-size:1.3em;
+	font-weight:bold;
+}
+.home{
+	float:right;
+}
+.back_home{
+	font-size:1.3em;
+	font-weight:bold;
+}
+#upload{
+	float:left;
+}
+#upload_zh{
+	float:left;
+}
+#center{
+	TEXT-ALIGN: center;
+}

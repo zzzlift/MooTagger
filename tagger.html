@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="pic/ico/title.png" rel="shortcut icon">
+<title>Moo</title>
+<link rel="stylesheet" href="css/moll.css"/>
+</head>
+<body>
+<!-- 
+<input type="file" id="input">
+<button id="load">do</button>
+<div class="hidden"> </div>
+<span id="test"></span>
+-->
+<div id="center">
+<h1>Moo tagger</h1>
+<span>
+<label >Number of entities:</label><input id="ind_num" class="index">
+<label >Index of entities:</label><input id="index_num" class="index">
+<label >Index of sentences:</label><input id="sent_id" class="index"> 
+<label >Number of classes:</label><input id="class_num" class="index"> 
+</span>
+<span class="home">
+	<a href="index.html" class="back_home">Home</a>
+</span>
+<br>
+<br>
+<textarea class="text" id="textarea">
+</textarea>
+<br>
+<button id="upload">upload</button>
+<div id="show"></div>
+<table><thead><td></td></thead>
+<tbody><tr>
+<td id="result"></td>
+</tr></tbody>
+</table>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<h2>Tutorial</h2>
+<p>Example sentence: Google;American;technology company;software	Google is an American multinational technology company specializing in Internet-related services and products that include online advertising technologies, search, cloud computing, and software.</p>
+<p>Every line starts with target entities of which the number is without limitation. Target entities and sentences need to be split by ";" (; key)as shown above. Firstly, you need to input the Number of target entities (the default is 2). Secondly, you need to input the number of classes you expect (the default is 2). So far, it supports up to 10 classes. The index of sentences is no need to input. Finally, Paste your sentences here, and click the button upload. You will know how it works.</p>
+<p>If you want to save you classification results, you need to click the button "class_i" to download the data that is classified by you by chrome. According to the file name, you will know how to process them.</p>
+<p><a href="tutorial.html" target="blank">More tutorial<a></p>
+
+<h2>Denote</h2>
+<p>Paypal Account: hongyin_zhu@163.com</p>
+<p>Alipay Account: zhyxhys@163.com</p>
+<p>Or Scanning two-dimensional code to denote</p><a href="alipay.html" target="blank"><img src="pic/alipay.jpg" class="alipay"></img></a>
+<p>Help cover the server fees. Thank you very much!!</p>
+<p>Copyright is reserved by the author. If having any comments and advices, you can send email to "zhyxhys@163.com".</p>
+</body>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/FileSaver.min.js"></script>
+<script src="js/moll.js"></script>
+<script src="js/googleAnalytics.js"></script>
+<script>
+
+
+</script>
+</html>
